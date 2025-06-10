@@ -1,0 +1,38 @@
+# ========== Unity 기본 ==========
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# ========== Visual Studio / C# ==========
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+
+# ========== OS / 시스템 파일 ==========
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========== 기타 ==========
+# Unity3D generated meta files should be tracked
+# But exclude meta files inside ignored folders (ex: Library/, Temp/)
+[Ll]ibrary/**/*.meta
+[Tt]emp/**/*.meta
+
+# ========== TextMeshPro ==========
+Assets/TextMesh Pro/Examples & Extras/
+
+# ========== Crash Reports ==========
+*.stacktrace
+
+# ========== JetBrains Rider ==========
+.idea/
+*.sln.iml
